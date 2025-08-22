@@ -28,7 +28,7 @@ public class LibrosEntity {
     private String isbn;
 
     @Column(name = "ANO_PUBLICACION",nullable = false)
-    private Date ano_publicacion;
+    private String ano_publicacion;
 
     @Column(name = "GENERO",nullable = false, length = 50)
     private String genero;

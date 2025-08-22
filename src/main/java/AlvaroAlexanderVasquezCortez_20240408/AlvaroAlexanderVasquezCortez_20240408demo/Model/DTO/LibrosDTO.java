@@ -30,7 +30,7 @@ public class LibrosDTO {
     @NotNull(message = "No puede ir vacio")
     @Future(message = "No puede ser fecha futura")
     @DecimalMin(value = "0.0", message = "la fecha no puede tener numeros negativos")
-    private Date ano_publicacion;
+    private String ano_publicacion;
 
     @NotNull(message = "No puede ir vacio")
     @Size (max =50,message = "No puede exceder mas de 50 caracter")
